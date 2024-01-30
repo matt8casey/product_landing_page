@@ -1,0 +1,170 @@
+@media (max-width: 500px){
+  html {
+    overflow: auto;
+  }
+}
+
+
+#header {
+  display: flex;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  height: 95px;
+}
+
+img {
+  width: 80px;
+  align-items: top;
+  justify-content: start;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 100%;
+}
+
+.nav-link {
+  padding-right: 5%;
+  margin: 2%;
+  color: black; 
+  text-decoration: none;
+}
+
+.nav-link:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: blue;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  width: 60%;
+  height: 20%;
+  margin-top: 10%;
+  padding-top: 190px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 95px;
+}
+
+#email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 50%;
+}
+
+#submit {
+  display: flex;
+  background-color: blue;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+.disclaimer {
+  font-size: 10px;
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.info {
+  background-color: grey;
+  border: 1px solid transparent;
+  border-radius: 15%;
+  color: white;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+i {
+  color: blue;
+}
+
+.price {
+  display: flex;
+}
+
+.price1{
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.price2 {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.price3 {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.top {
+  background-color: lightgrey;
+  align-items: top;
+  display: flex;
+  margin: 0;
+  padding-top: 0;
+  width: 100%;
+}
+
+footer {
+  background-color: lightgrey;
+}
+
+.specs {
+  color: black;
+  text-decoration: none;
+}
+
+.specs:visited {
+  color: black;
+}
+
+.price-select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 20%;
+}
